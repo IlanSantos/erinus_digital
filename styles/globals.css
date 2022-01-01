@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;400&family=Roboto:wght@300&display=swap');
+/* VARIABLES */
+:root{
+  --default-color-blue: #00135B;
+  --default-color-green: #007627;
+}
+html,
+body {
+  background-color: #fcfcfc !important;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* SECTION, TITLES... */
+
+section p{
+  color: rgba(0, 0, 0, 0.507);
+  font-size: 1.5rem;
+}
+
+.section-presentation{
+  text-align: center;
+  animation: translator 700ms ease-out;
+}
+.section-presentation h1{
+  color: #00135b;
+}
+
+.title{
+  color: var(--default-color-blue);
+}
+
+p.description{
+  color: rgba(0, 0, 0, 0.507);
+  font-size: 1.5rem;
+}
+    /* ANIMATIONS */
+
+    .slide-left{
+      animation: slide-left 400ms;
+    }
+
+    @keyframes slide-left {
+      from{
+        transform: translateX(-50px);
+      }to{
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes translator {
+      from{
+        transform: translateY(-50px);
+      }to{
+        transform: translate(0);
+      }
+    }
+
+/* BUTTONS */
+
+.btn-padrao{
+  border-color: #007627 !important;
+  background-color: #00765b !important;
+  color: white !important;
+}
