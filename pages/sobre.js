@@ -14,7 +14,7 @@ export default function Sobre(){
                     <Col lg="8" md="8">
                         <p className="description">
                             Somos uma startup fundada em 01/01/2022 com o objetivo de
-                            ser uma produtora/desenvolvedora de sistemas/aplicações sob demanda.
+                            ser uma produtora/desenvolvedora de sistemas/aplicações sob demanda baseados em web.
                         </p>
                     </Col>
                 </section>
@@ -24,7 +24,7 @@ export default function Sobre(){
                 </p>
                 <div className="col-md-8 col-lg-6 g-4 d-flex flex-wrap justify-content-start align-items-center">
                     <Col md="4" xs="12">
-                        <Image alt="postgresql icon" src="/postgresql-icon.svg" width={128} height={128} />{' '}
+                        <Image alt="postgresql icon" src="/postgresql-icon.svg" width={128} height={128} />
                     </Col>
                     <Col md="4" xs="12">
                         <Image alt="postgresql icon" src="/nodejs-icon.svg" width={128} height={128} />
