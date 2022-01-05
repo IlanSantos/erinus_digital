@@ -13,8 +13,6 @@ body {
 }
 main{
   height: 100vh;
-  background-image: url('../../public/background_image.jpg');
-  background-size: cover;
 }
 
 * {
