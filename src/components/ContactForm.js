@@ -1,10 +1,18 @@
 import { Button, Col, FormControl, FormLabel, Row } from 'react-bootstrap'
 import {useForm } from 'react-hook-form'
-
+import api from '../services/api'
 
 const ContactForm = () => {
     const {register, handleSubmit} = useForm()
-    const onSubmit = data => console.log(data)
+    const onSubmit = async data => {
+        try{
+            await api.post("/api/contato", data)
+            console.log("Nova solicitação realizada")
+        }catch(error){
+            if(error.response) console.log(error.response.data.message)
+            else console.log(error)
+        }
+    }
     
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
