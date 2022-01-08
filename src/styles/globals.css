@@ -38,10 +38,6 @@ p.description{
   color: rgba(0, 0, 0, 0.507);
   font-size: 1.5rem;
 }
-p.description-sm{
-  color: rgba(0, 0, 0, 0.507);
-  font-size: 1.2rem;
-}
     /* ANIMATIONS */
 
     .slide-left{

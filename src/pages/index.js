@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Link from "next/link"
-import { Button, Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import { Card } from "../styles/CardPresentation"
 export default function Home() {
     return (
@@ -23,7 +23,7 @@ export default function Home() {
                                     <Card>
                                         <h2 className="title">Sobre nós</h2>
                                         <p className="fs-5">
-                                            Somos uma startup fundada em 31/12/2021 sediada em Salvador, Bahia.
+                                            Somos uma startup fundada em 01/01/2022 sediada em Salvador, Bahia.
                                             {' '}<Link href="/sobre"><a>Clique aqui</a></Link> para saber mais.
                                         </p>
                                     </Card>

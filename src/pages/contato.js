@@ -7,8 +7,8 @@ export default function Contato(){
                 <div className="mt-4">
                     <h3 className="title">E-mail</h3>
                     <p className="fs-5">ilansantos68@gmail.com</p>
-                    <h3>Telefone</h3>
-                    <p className="fs-5">(71) 98169-2388</p>
+                    <h3 className="title">Telefone</h3>
+                    <p className="fs-5">(71) 99655-2388</p>
                 </div>
             </section>
         </main>
