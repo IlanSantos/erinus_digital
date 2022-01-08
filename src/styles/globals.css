@@ -47,12 +47,22 @@ p.description-sm{
     .slide-left{
       animation: slide-left 400ms;
     }
-
+    .slide-top{
+      animation: slide-top 400ms;
+    }
     @keyframes slide-left {
       from{
         transform: translateX(-50px);
       }to{
         transform: translateX(0);
+      }
+    }
+
+    @keyframes slide-top {
+      from{
+        transform: translateY(-50px);
+      }to{
+        transform: translateX(0)
       }
     }
 
@@ -66,8 +76,28 @@ p.description-sm{
 
 /* BUTTONS */
 
-.btn-padrao{
+.btn-default-green{
   border-color: #007627 !important;
   background-color: #00765b !important;
   color: white !important;
+}
+.btn-default-blue{
+  border-color: var(--default-color-blue) !important;
+  background-color: var(--default-color-blue) !important;
+  color: white !important;
+}
+
+/* MODAL */
+.modal-default-show{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+  z-index: 9999;
+}
+.modal-default-hide{
+  display: none;
 }

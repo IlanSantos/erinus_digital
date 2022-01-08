@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import { Col, Container} from "react-bootstrap";
 import ContactForm from "../components/ContactForm";
+import Modal from '../components/Modal';
 export default function Orcamento(){
 
     return(
