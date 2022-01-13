@@ -1,7 +1,7 @@
 {
   "name": "erinus_digital",
   "private": true,
-  "version": "1.2",
+  "version": "1.2.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
